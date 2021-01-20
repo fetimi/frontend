@@ -1,0 +1,127 @@
+
+.main-pane {
+  background: url('../../assets/elements-noel-du-nouvel-an_1436-261.jpg') 100% 100%;
+  //background: url('../../assets/modele-noel-compose.jpg') 100% 100%;
+  position:absolute; 
+  display:block; 
+  height:100%; 
+  width:100%; 
+  top:0px; 
+  left:0px; 
+  h1 {
+    color: #333333
+  }
+}
+.text-center-div{
+  background-color: #f6f6f6bd !important;
+}
+
+.text-center{
+  margin-top : 91px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 40px;
+  letter-spacing: -2.2px;
+  word-spacing: 3.6px;
+  color:#ff0000 !important;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.part-grid {
+  display: flex;
+  justify-content: center;
+}
+.iconSurprise{
+  background: url('../../assets/surprise.png');
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 275px;
+}
+
+.part {
+  transition: all 0.3s ease-in-out;
+    position: relative;
+    height: 70px;
+    width: 340px;
+    margin-top: 25px;
+    background: #cc2b2b;
+    border-radius: 30px;
+    cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+  h1 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 30px;
+    letter-spacing: -2.2px;
+    word-spacing: 3.6px;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-left: -20px;
+  }
+}
+
+.div-how-work{
+  background-color: #f6f6f6bd ;
+  height: 300px;
+  margin-top: 250px;
+  text-align: -webkit-center;
+}
+.div-how-work-step{
+  display: inline-block;
+  max-width: 330px;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.iconStep1{
+  background: url('../../assets/1.png');
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 145px;
+  margin-bottom: 10px;
+}
+.iconStep2{
+  background: url('../../assets/2.png');
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 145px;
+  margin-bottom: 10px;
+}
+.iconStep3{
+  background: url('../../assets/3.png');
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 145px;
+  margin-bottom: 10px;
+}
+.div-how-work-step1-title{
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 30px;
+  letter-spacing: -2.2px;
+  word-spacing: 3.6px;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+}
